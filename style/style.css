@@ -131,18 +131,70 @@ nav {
     box-shadow: 20px linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(154, 90, 16, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
 
-.healthy-text .btn-1,
-.btn-2 {
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 45px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
     background: rgb(230, 83, 60);
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
+    color:  rgb(255, 255, 255);
+    font-size: 1rem;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
+    transition: .6s;
+    box-shadow:0 0 1rem rgb(230, 83, 60);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-box a:hover {
+    color: white;
+}
+
+.btn-box a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(69, 69, 73, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .4s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+
+
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: white;
+
+}
+
+
+.btn-box a:nth-child(2):hover {
+    background: rgb(230, 83, 60);
+    color: white;
+    box-shadow: 0 0 1rem rgb(230, 83, 60);
+}
+
+.btn-box a:nth-child(2)::before {
+    background: rgb(230, 83, 60);
 }
 
 .video-tutorial {
@@ -332,21 +384,9 @@ nav {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
+    margin-bottom: 10px;
 }
 
-.running-container .running button {
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
-    background: rgb(230, 83, 60);
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-}
 
 @media screen and (min-width:420px) and (max-width:650px) {
     .navbar-container {
@@ -391,3 +431,5 @@ nav {
         display: none;
     }
 }
+
+
