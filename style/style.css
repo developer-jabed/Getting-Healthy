@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(69, 69, 73, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
+    height: 100vh;
+}
+
+/* navbar */
+
+nav {
+    position: relative;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    /* position: absolute; */
+}
+
+.navbar-container li {
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.navbar-container li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    transition: all 0.5s ease;
+}
+
+.navbar-container li a span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+    opacity: 1;
+}
+
+
+.navbar-container li a:hover {
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+
+}
+
+.navbar-container h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar-container .menu-icon {
+    display: none;
+}
+
+.healthy-container {
+    font-family: Inter;
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+.healthy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+.healthy-text h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.healthy-text h1 span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.healthy-text p {
+    /* body-text */
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 20px linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(154, 90, 16, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.healthy-text .btn-1,
+.btn-2 {
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.video-tutorial {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 904px;
+    top: 556px;
+}
+
+.video-tutorial-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1200px;
+    top: 260px;
+}
+
+.video-tutorial-2 h1,
+.video-tutorial h1 {
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.video-tutorial-2 p,
+.video-tutorial p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.red-circle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.red {
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.habit-container {
+    margin-top: 25px;
+}
+
+.habit-container .habit-text h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.habit-container .habit-text .habit-2nd-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gym-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 130px;
+}
+
+.gym-container .gym {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.gym-container .gym img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+
+}
+
+.gym-container .gym h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gym-container .gym p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.running-container {
+    border-radius: 18px;
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+    margin: 62px 130px;
+    padding: 30px 54px;
+
+}
+
+.running-container .running {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+.running-container .running img {
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+}
+
+.running-container .running h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.running-container .running p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.running-container .running button {
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: rgb(230, 83, 60);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+@media screen and (min-width:420px) and (max-width:650px) {
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .navbar-container .navbar li {
+        display: none;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .navbar-container .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        font-size: 30px;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width:800px) {
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 20px;
+    }
+
+    .navbar-container.navbar li {
+        display: none;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .navbar-container.menu-icon {
+        display: none;
+    }
+}
