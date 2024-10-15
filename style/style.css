@@ -389,7 +389,7 @@ nav {
 }
 
 /* responsive  */
-@media screen and (min-width:600px) and (max-width:850px) {
+@media screen and (max-width:750px) {
     .navbar-container {
         display: flex;
         align-items: center;
