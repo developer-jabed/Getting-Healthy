@@ -481,10 +481,9 @@ nav {
         margin-top: 50px;
         background: rgb(34, 34, 34);
         margin: 10px 30px;
-        /* padding: 30px 54px; */
         width: 80%;
         left: 0;
-        /* right: 800px; */
+        padding: 20px;
     }
     
     .running-container .running {
@@ -492,7 +491,7 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding: 10px;
+        
     }
     
     .running-container .running img {
