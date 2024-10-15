@@ -417,7 +417,7 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        padding: 10px 10px;
+        padding: 25px;
     }
 
     .video-tutorial {
@@ -435,7 +435,7 @@ nav {
         width: 206px;
         height: 96px;
         left: 10px;
-        top: 1000px;
+        top: 1050px;
     }
 
     .video-tutorial-2 {
@@ -450,8 +450,8 @@ nav {
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
         position: absolute;
-        top: 630px;
-        left: 280px;
+        top: 800px;
+        left: 200px;
     }
     .gym-container {
         display: grid;
@@ -492,6 +492,7 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        padding: 10px;
     }
     
     .running-container .running img {
