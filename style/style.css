@@ -483,7 +483,7 @@ nav {
         margin: 10px 30px;
         width: 80%;
         left: 0;
-        padding: 20px;
+        /* padding: 50px; */
     }
     
     .running-container .running {
@@ -491,7 +491,8 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        
+        text-align: center;
+        padding-left: 40px;
     }
     
     .running-container .running img {
