@@ -1,0 +1,232 @@
+
+/* responsive  */
+@media screen and (max-width:576px) {
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .navbar-container .navbar li {
+        display: none;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .navbar-container .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    .healthy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 25px;
+    }
+
+    .video-tutorial {
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        position: absolute;
+        width: 206px;
+        height: 96px;
+        left: 10px;
+        top: 840px;
+    }
+
+    .video-tutorial-2 {
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        position: absolute;
+        top: 620px;
+        left: 330px;
+    }
+
+    .gym-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+        /* padding: 0 130px; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gym-container .gym {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .gym-container .gym img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 15px;
+
+
+    }
+
+    .running-container {
+        border-radius: 18px;
+        margin-top: 50px;
+        background: rgb(34, 34, 34);
+        margin: 10px 30px;
+        width: 90%;
+        left: 0;
+        /* padding: 50px; */
+    }
+
+    .running-container .running {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .running-container .running img {
+        border-radius: 18px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .running-container .running .btn-box {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 20px;
+    }
+
+    .navbar-container.navbar li {
+        display: none;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .navbar-container.menu-icon {
+        display: none;
+    }
+
+    .healthy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        padding: 10px 10px;
+    }
+
+    .video-tutorial {
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        position: absolute;
+        width: 206px;
+        height: 96px;
+        left: 90px;
+        top: 960px;
+    }
+
+    .video-tutorial-2 {
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        position: absolute;
+        top: 600px;
+        left: 490px;
+    }
+
+    .gym-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+        padding: 0 130px;
+    }
+
+    .gym-container .gym {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .gym-container .gym img {
+        width: 50%;
+        /* height: 150px; */
+        border-radius: 50%;
+        margin-top: 15px;
+
+
+    }
+
+    .running-container {
+        border-radius: 18px;
+        margin-top: 50px;
+        background: rgb(34, 34, 34);
+        width: 100%;
+        left: 0;
+        padding: 20px;
+        margin: 5px;
+        /* overflow: hidden; */
+    }
+
+    .running-container .running {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .running-container .running img {
+        border-radius: 18px;
+        width: auto;
+        height: 319px;
+    }
+
+}

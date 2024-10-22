@@ -12,13 +12,13 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style/responsive.css">
   </head>
   <body>
     <header>
       <nav>
         <div class="navbar-container">
           <h1>Fitness</h1>
-
           <div class="navbar">
             <li>
               <a href="#"><span>Home</span></a>
@@ -112,6 +112,142 @@
           </div>
         </div>
       </section>
+                         <!-- bmi calculation section  -->
+      <section class="bmi">
+        <div class="bmi-header">
+          <h1>
+            BMI Calculator
+          </h1>
+          <p>
+            We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. <br>
+          </p>
+         <div class="bmi-input">
+          <div class="Calculator-bmi">
+            <h1>BMI Calculator Chart</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Below 18.5 </td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td> 18.5 - 24.9 </td>
+                  <td> Healthy</td>
+                </tr>
+                <tr>
+                  <td> 25.0 - 29.9  </td>
+                  <td> Overweight</td>
+                </tr>
+                <tr>
+                  <td> 30.0 - and Above </td>
+                  <td> Obese</td>
+                </tr>
+ 
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>Calculate your BMI</h1>
+            <p> We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
+            <form>
+              <div class="form-group">
+
+                <input type="number" class="form-control" id="height" placeholder=" height/cm" required>
+             
+
+                <input type="number" class="form-control" id="weight" placeholder=" weight/cm" required>
+              </div>
+              <div class="form-group">
+
+                <input type="number" class="form-control" id="age" placeholder=" age" required>
+             
+
+                <input type="number" class="form-control" id="sex" placeholder=" Sex" required>
+              </div>
+              <div>
+                <input type="text" class="form-control" id="activity"
+                placeholder="Select an activity factor" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Calculate BMI</button>
+            </form>
+          </div>
+         </div>
+        </div>
+      </section>
+      <section class="Meet">
+        <div class="trainer-heading">
+          <h1>Meet Our Team </h1>
+          <p> We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+        </div>
+        <div class="trainer-container">
+          <div class="trainer ">
+            <img src="images/trainer1.png" alt="">
+            <h2>Jerome Bell</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="trainer ">
+            <img src="images/trainer2.png" alt="">
+            <h2>Cameron Williamson</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="trainer ">
+            <img src="images/trainer3.png" alt="">
+            <h2>Darrell Steward</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="trainer ">
+            <img src="images/trainer4.png" alt="">
+            <h2>Dianne Russel</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="trainer ">
+            <img src="images/trainer5.png" alt="">
+            <h2>Cody Fisher</h2>
+            <p>Trainer</p>
+          </div>
+          <div class="trainer ">
+            <img src="images/trainer6.png" alt="">
+            <h2>Theresa Webb</h2>
+            <p>Trainer</p>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section class="footer">
+        <div class="footer-container">
+          <div>
+            <h1>Fitness</h1>
+            <p> We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
+          </div>
+          <div >
+            <h1>Get Started</h1>
+            <div class="Cookies">
+              <a href="#">Services</a>
+              <a href="#">Contact us</a>
+              <a href="#">Affillite program</a>
+              <a href="#">About us</a>
+            </div>
+          </div>
+          <div>
+            <h1>Privacy Policy</h1>
+            <div class="Cookies">
+              <a href="#">Cookies Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Return Policy</a>
+              <a href="#">FAQs</a>
+            </div>
+            
+          </div>
+        </div>
+        <p class="copyright">All right reserved &copy;Fitness 2024</p>
+      </section>
+    </footer>
   </body>
 </html>
