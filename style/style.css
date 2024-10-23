@@ -397,6 +397,7 @@ body {
     font-family: Inter;
     font-size: 45px;
     font-weight: 900;
+    margin-top: 20px;
 
 }
 
@@ -411,8 +412,12 @@ body {
     display: flex;
     justify-content: space-around;
     background: rgb(34, 34, 34);
+    padding: 35px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 18px;
 }
-
 .bmi-table table th,
 td {
     padding: 10px;
@@ -507,6 +512,79 @@ td {
     padding: 16px 40px 16px 40px;
     background: rgb(230, 83, 60);
     margin-top: 10px;
+}
+.Purchase-heading h1 , p{
+    text-align: center;
+}
+.Purchase-heading h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+}
+.Purchase-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.Purchase-container {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 35px;
+    margin: 10px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+    margin-left: 130px;
+}
+.Purchase-card{
+    background: purple;
+    padding:10px 35px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 18px;
+    box-shadow: brown;
+    text-align: center;
+    align-items: center;
+
+}
+.Purchase-card h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+}
+.Purchase-card img{
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 10px;
+    height: 300px;
+    /* transform: translateX(10px); */
+}
+
+.Purchase-card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+}
+.Purchase-card a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 /* meet trainer section  */

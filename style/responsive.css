@@ -150,7 +150,8 @@
         flex-direction: column;
         justify-content: center;
         padding: 35px;
-        margin-top: 15px 10px;
+        margin: 15px 10px;
+        width: 96%;
 
     }
 
@@ -194,20 +195,33 @@
     #select-input {
         width: 35%;
     }
+    .Purchase-container {
+        width: 96%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 35px;
+        margin: 10px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        align-items: center;
+        margin-left:10px;
+        gap: 10px;
+    }
 
     .trainer-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2px;
-        width: 420px;
+        width: 96%;
         height: auto;
         justify-content: center;
         align-items: center;
         border-radius: 18px;
         background: rgb(65, 74, 82);
         padding: 10px;
-        margin-left: 0;
-        margin: 35px;
+        margin: 10px;
         /* margin-top: 20px; */
     }
 
@@ -222,6 +236,11 @@
         margin-top: 10px;
         text-wrap: wrap;
         padding: 5px;
+    }
+    .trainer img {
+        width: 90%;
+        height: 272px;
+        border-radius: 18px;
     }
 
     .trainer-heading p {
