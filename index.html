@@ -113,73 +113,80 @@
         </div>
       </section>
                          <!-- bmi calculation section  -->
-      <section class="bmi">
-        <div class="bmi-header">
-          <h1>
-            BMI Calculator
-          </h1>
-          <p>
-            We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. <br>
-          </p>
-         <div class="bmi-input">
-          <div class="Calculator-bmi">
-            <h1>BMI Calculator Chart</h1>
-            <table>
-              <thead>
-                <tr>
-                  <th>BMI</th>
-                  <th>Weight Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td> Below 18.5 </td>
-                  <td>Underweight</td>
-                </tr>
-                <tr>
-                  <td> 18.5 - 24.9 </td>
-                  <td> Healthy</td>
-                </tr>
-                <tr>
-                  <td> 25.0 - 29.9  </td>
-                  <td> Overweight</td>
-                </tr>
-                <tr>
-                  <td> 30.0 - and Above </td>
-                  <td> Obese</td>
-                </tr>
- 
-              </tbody>
-            </table>
-          </div>
-          <div>
-            <h1>Calculate your BMI</h1>
-            <p> We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
-            <form>
-              <div class="form-group">
-
-                <input type="number" class="form-control" id="height" placeholder=" height/cm" required>
-             
-
-                <input type="number" class="form-control" id="weight" placeholder=" weight/cm" required>
-              </div>
-              <div class="form-group">
-
-                <input type="number" class="form-control" id="age" placeholder=" age" required>
-             
-
-                <input type="number" class="form-control" id="sex" placeholder=" Sex" required>
-              </div>
-              <div>
-                <input type="text" class="form-control" id="activity"
-                placeholder="Select an activity factor" required>
-              </div>
-              <button type="submit" class="btn btn-primary">Calculate BMI</button>
-            </form>
-          </div>
-         </div>
-        </div>
-      </section>
+                         <section>
+                          <div class="bmi-heading">
+                              <h1> BMI Calculator</h1>
+                              <p>We believe fitness should be accessible to everyone, everywhere, regardless <br> of income or access to a gym.</p>
+                          </div>
+                          <div class="bmi-container">
+                              <div class="bmi-text">
+                                  <h2>Bmi Calculator Chart </h2>
+                                  <div class="bmi-table">
+                                      <table>
+                                          <thead>
+                                              <tr>
+                                                  <th>Bmi</th>
+                                                  <th>weight Status</th>
+                                              </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <td>18.5-24.9</td>
+                                                  <td>Underweight</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>25.0-29.9</td>
+                                                  <td>Normal</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>30.0-34.9</td>
+                                                  <td>Overweight</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>35.0-39.9</td>
+                                                  <td>Obese</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>�� 40.0</td>
+                                                  <td>Morbidly Obese</td>
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+                              <div class="bmi-input">
+                                  <h2>Calculate your BMI</h2>
+                                  <form action="" class="bmi-calculator">
+                                      <div>
+                                          <input type="number" class="form-input" placeholder="height/cm">
+                                          <input type="number" class="form-input" placeholder="weight/kg">
+                                      </div>
+                                      <div>
+                                          <input type="number" name="age" id="form-input" class="form-input" placeholder="age">
+                                          <select name="sex" id="select-input" class="select-input">
+                                              <option class="form-input" value="select">Sex</option>
+                                              <option class="form-input" value="male">Male</option>
+                                              <option class="form-input" value="female">Female</option>
+                                              <option class="form-input" value="other">Other</option>
+                                          </select>
+                                      </div>
+                                      <div>
+                                          <select name="activity" id="activity" class="select-input"> 
+                                              <option class="form-input" value="select">activity </option>
+                                              <option class="form-input" value="sedentary">Sedentary</option>
+                                              <option class="form-input" value="lightly active">Lightly Active</option>
+                                              <option class="form-input" value="moderately active">Moderately Active</option>
+                                              <option class="select-input" value="very active">Very Active</option>
+                                          </select>
+                                      </div>
+                                      <div>
+                                          <button type="submit" class="bmi-button">Calculate</button>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </section>
+                          <!-- meet trainers section  -->
       <section class="Meet">
         <div class="trainer-heading">
           <h1>Meet Our Team </h1>
@@ -222,11 +229,11 @@
     <footer>
       <section class="footer">
         <div class="footer-container">
-          <div>
+          <div class="footer-fitness">
             <h1>Fitness</h1>
             <p> We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
           </div>
-          <div >
+          <div class="cookies-list" >
             <h1>Get Started</h1>
             <div class="Cookies">
               <a href="#">Services</a>
@@ -235,7 +242,7 @@
               <a href="#">About us</a>
             </div>
           </div>
-          <div>
+          <div  class="cookies-list">
             <h1>Privacy Policy</h1>
             <div class="Cookies">
               <a href="#">Cookies Policy</a>
